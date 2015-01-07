@@ -7,7 +7,15 @@
 
     {% include header.html %}
 
+
     <div class="page-content">
+	    
+	    
+	<div class="wrapper" id="nameplate">
+<h1>Dan Munz</h1>
+Husband, dad, public servant, web guy, running man.
+</div>
+
       <div class="wrapper">
         {{ content }}
       </div>
@@ -16,5 +24,11 @@
     {% include footer.html %}
 
   </body>
+
+<script src="{{ "/js/jquery-2.1.3.min.js" | prepend: site.baseurl }}">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<script>
+</script>
 
 </html>

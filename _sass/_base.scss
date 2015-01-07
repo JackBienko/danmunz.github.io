@@ -79,8 +79,21 @@ li {
 /**
  * Headings
  */
-h1, h2, h3, h4, h5, h6 {
+ 
+h1,h2,h3,h4,h5,h6{
+	color: #111;
+	    font-family: $serif-font-family;
+
+}
+
+h1, h2 {
     font-weight: 300;
+    font-size: 2em;
+}
+
+h3, h4, h5, h6 {
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 
@@ -93,15 +106,29 @@ a {
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: darken($brand-color, 10%);
     }
 
     &:hover {
         color: $text-color;
-        text-decoration: underline;
+        text-decoration: none;
     }
 }
+	
+a.ss-icon{
+	color: lighten($brand-color,25%);
+	margin-left: 5px;
+	font-size: 0.85em;
+	background-color: none !important;
+}
 
+.post-content a{
+    background-color: lighten($brand-color,45%);
+    text-decoration: none;
+    color: $text-color;
+    padding: 0 1px;	
+    
+}
 
 
 /**
@@ -159,7 +186,7 @@ pre {
     margin-right: auto;
     margin-left: auto;
     padding: $spacing-unit * 2;
-    background-color: #f2f2f2;
+    background-color: #f1f1f1;
     @extend %clearfix;
 
     @include media-query($on-laptop) {
@@ -168,6 +195,7 @@ pre {
         padding: $spacing-unit / 2;
 
     }
+    
 }
 
 
