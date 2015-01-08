@@ -43,7 +43,6 @@ html:hover [class^="ss-"]{-ms-zoom: 1;}
   font-feature-settings: "liga";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: none;
 }
 
 [class^="ss-"].right:before,

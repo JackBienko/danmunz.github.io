@@ -21,6 +21,10 @@ body {
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility !important;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+
 }
 
 
@@ -116,24 +120,29 @@ a {
 }
 	
 a.ss-icon{
-	color: lighten($brand-color,25%);
 	margin-left: 5px;
 	font-size: 0.85em;
 	background-color: none !important;
+	color: $brand-color;
+
+
+    &:visited {
+        color: $brand-color;
+    }
+
+    &:hover {
+        color: $text-color;
+        text-decoration: none;
+    }
+
 }
 
-.post-content a{
-    background-color: lighten($brand-color,45%);
-    text-decoration: none;
-    color: $text-color;
-    padding: 0 1px;	
-    
-}
 
 
 /**
  * Blockquotes
  */
+ 
 blockquote {
     color: $grey-color;
     border-left: 4px solid $grey-color-light;
@@ -186,7 +195,7 @@ pre {
     margin-right: auto;
     margin-left: auto;
     padding: $spacing-unit * 2;
-    background-color: #f1f1f1;
+    background-color: $background-color;
     @extend %clearfix;
 
     @include media-query($on-laptop) {

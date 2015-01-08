@@ -3,7 +3,7 @@
 
   {% include head.html %}
 
-  <body>
+  <body class="{% if page.is_post %}writing{% else %}{{ page.title | downcase}}{% endif %}">
 
     {% include header.html %}
 
@@ -13,20 +13,18 @@
 	    
 	<div class="wrapper" id="nameplate">
 <h1>Dan Munz</h1>
-Husband, dad, public servant, web guy, running man.
+<p class="tagline">Public servant, web guy, running man.</p>
 </div>
 
       <div class="wrapper">
         {{ content }}
+        
       </div>
     </div>
 
     {% include footer.html %}
 
   </body>
-
-<script src="{{ "/js/jquery-2.1.3.min.js" | prepend: site.baseurl }}">
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
 <script>
 </script>

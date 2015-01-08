@@ -1,24 +1,27 @@
   <header id="header">
     <div class="container">
+
+
       <nav id="nav">
         <ul>
-         <li><a class="page-link" href="{{ site.url }}">Home</a></li>
+         <li><a class="page-link home" href="{{ site.url }}">Home</a></li>
         {% for page in site.pages %}
           {% if page.title %}
-          <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+          <li><a class="page-link {% if page.is_post %}writing{% else %}{{ page.title | downcase}}{% endif %}" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
           {% endif %}
         {% endfor %}
         </ul>
       </nav>
+
+        <div class="toggler">Menu</div>
+
     </div>
   </header>
 
 <script type="text/javascript">
 	
-	$(function(){
-  $('#nav').click(function() {
-    $(this).toggleClass('open');
+  $('.toggler').click(function() {
+	  $('#nav').slideToggle();	
   });
-});
-	
+    
 </script>
