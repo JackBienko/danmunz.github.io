@@ -22,6 +22,5 @@ defaults:
     values:
       is_post: true # automatically set is_post=true for all posts
 
-
 # Outputting
 permalink:     /writing/:year/:month/:day/:title/
