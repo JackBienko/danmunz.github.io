@@ -25,6 +25,7 @@
   height: 50px;
   line-height: 50px;
   background-color: $background-color;
+  overflow: hidden;
 }
 #nav {
   right: 0;
@@ -38,11 +39,10 @@
     li {
 	    display: inline-block;
       a {
-        display: block;
         color: $brand-color;
         text-decoration: none;
-        margin: 0 30px;
-        padding: 0 5px;
+        margin: 0 36px;
+        padding: 0 1px 2px 1px;
         font-size: 1em;
         letter-spacing: 1px;
         font-weight: bold;
@@ -101,24 +101,7 @@
 	cursor: pointer;
 }
 
-body.home a.home{color: $background-color;}
-body.cv a.cv{color: $background-color;}
-body.bio a.bio{color: darken($brand-color,15%);}
-body.elsewhere a.elsewhere{color: darken($brand-color,15%)}
-body.projects a.projects{color: darken($brand-color,15%);}
-body.writing a.writing{color: darken($brand-color,15%);}
-   
 }
-
-/*
-body.home a.home{color: darken($brand-color,15%) !important;}
-body.cv a.cv{color: darken($brand-color,15%) !important;}
-body.bio a.bio{color: darken($brand-color,15%) !important;}
-body.elsewhere a.elsewhere{color: darken($brand-color,15%) !important;}
-body.projects a.projects{color: darken($brand-color,15%) !important;}
-body.writing a.writing{color: darken($brand-color,15%) !important;}
-*/
-
 
 /**
  * Site footer
@@ -201,14 +184,16 @@ background: none;
  #nameplate.wrapper {
 display: block;
 	 text-align: center;
-	 font-size: 1.5em;
+	 font-size: 2em;
 	 color: #F1F1F1;
 	 font-family: $serif-font-family;
+	 line-height: 2em;
+	 padding-bottom: 0px;
+	 
 	 
  }
  
  #nameplate p.tagline{
-	 background: rgba($brand-color, 0.25);
  }
  
 #nameplate h1{
@@ -216,7 +201,6 @@ font-family: $base-font-family;
 font-size: 3em;
 font-weight: 700;
 color: white;
-background: rgba($brand-color, 0.25);
 }
 
 /**
@@ -241,6 +225,8 @@ background: rgba($brand-color, 0.25);
 
     > li {
         margin-bottom: $spacing-unit;
+        padding-bottom: $spacing-unit/2;
+        border-bottom: solid 1px $grey-color-light;
     }
 }
 
@@ -269,9 +255,9 @@ background: rgba($brand-color, 0.25);
 }
 
 .post-title {
-    font-size: 42px;
+    font-size: 3em;
     letter-spacing: -1px;
-    line-height: 1;
+    line-height: 1.25;
 
     @include media-query($on-laptop) {
         font-size: 36px;
@@ -280,14 +266,28 @@ background: rgba($brand-color, 0.25);
 
 .post-content {
     margin-bottom: $spacing-unit;
-
-
 }
 
 
-/**
-	Social icons
-	*/
+#disqus_thread body{
+	font-family: $base-font-family !important;
+}
+
+.footnotes{
+	margin: $spacing-unit 0;
+	background-color: darken($background-color,10%);
+	padding: $spacing-unit/2 $spacing-unit/2 $spacing-unit/4 $spacing-unit/2;
+}
+
+.footnotes:before{
 	
-	
+	CONTENT: "Notes";
+	color: #111;
+	font-family: $serif-font-family;
+    font-weight: 700;
+    font-size: 1em;
+    text-transform: uppercase;
+    margin-bottom: $spacing-unit/2;
+    display: inline-block;
+}
 

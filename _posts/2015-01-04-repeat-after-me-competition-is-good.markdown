@@ -2,9 +2,12 @@
 layout: post
 title:  "Repeat After Me: Competition Is Good. Competition Is Good!"
 date:   2015-01-04 23:39:42
+summary: "In which Dan takes on the Jekyll community, and wins!"
 categories: jekyll update
 ---
 Did you know that companies facing no competition are likely to charge you more? It's true! But in case you'd like a bit of evidence for this truism, Binyamin Appelbaum directs our attention to a clever study of mortgage rates from the Chicago Fed. It turns out that [when the federal government authorized the mortgage refinancing](http://) program called HARP, they set up the rules in a way that discouraged anyone from participating aside from the original lender. This meant that, effectively, the original lender had little or no competition for the refinanced loan.
+
+{% include image.html url="https://placekitten.com/g/900/300" description="This kitten is one of many kittens available on <a href='http://placekitten.com'>placekitten.com</a>. It could be yours today for the low price of $19.99 (plus tax where applicable)."%}
 
 The results are shown on the right. The HARP rules took effect for mortgages with a loan-to-value ratio of 80 percent or higher. Private label mortgages, which didn't fall under the new rules, show a normal range of interest rate spreads at all LTV values. But loans backed by Fannie Mae, which did fall under the new rules, show a sharp discontinuity upward precisely at an LTV of 80.
 

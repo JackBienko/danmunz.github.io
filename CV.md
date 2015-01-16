@@ -5,9 +5,9 @@ permalink: /cv/
 ---
 ## Experience
 
-### Consumer Financial Protection Bureau <a class="ss-icon" target="_blank" href="http://www.consumerfinance.gov">link</a> <a class="ss-icon" target="_blank" href="http://www.facebook.com/CFPB">facebook</a> <a class="ss-icon" target="_blank" href="http://www.twitter.com/cfpb">twitter</a> <a class="ss-icon" target="_blank" href="http://www.github.com/cfpb">github</a>
-
 <p class="post-meta">December 2010 - Present / Washington DC</p>
+
+### Consumer Financial Protection Bureau <a class="ss-icon" target="_blank" href="http://www.consumerfinance.gov">link</a> <a class="ss-icon" target="_blank" href="http://www.facebook.com/CFPB">facebook</a> <a class="ss-icon" target="_blank" href="http://www.twitter.com/cfpb">twitter</a> <a class="ss-icon" target="_blank" href="http://www.github.com/cfpb">github</a>
 
 Multiple technology and public engagement leadership positions during the startup phase of America's first consumer-focused federal financial regulator. Culminated as Deputy Assistant Director/Acting Assistant Director of the Office of Consumer Engagement.
 

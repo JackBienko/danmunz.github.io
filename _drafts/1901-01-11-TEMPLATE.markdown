@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "TITLE"
+date: 1901-01-01 01:01:01
+summary: "SUMMARY"
+tags:
+- one
+- two
+ 
+---
+
+Body copy here.
+
+{% include image.html url="URL" description="DESCRIPTION" %}
