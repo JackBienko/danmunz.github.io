@@ -42,6 +42,7 @@ Before we begin:
 1. While I am writing here in a professional capacity &mdash; i.e., as a person with the perspective of my professional interests and experiences &mdash; I am *not* writing here in an official capacity, ever, period. My writing doesn't reflect, represent, or even imply agreement by, any entity at all other than me.
 2. This blog adheres closely to [Deming's Law](http://www.wallstreetandtech.com/compliance/in-god-we-trust-all-others-bring-data/a/d-id/1268616?), but even more closely to [Cunningham's Law](http://meta.wikimedia.org/wiki/Cunningham%27s_Law). My goal in writing, for the most part, will be to explore and raise interesting questions, not answer them definitively, and as such I'm comfortable with frequently being wrong/under-informed. It's an intentional knowledge-seeking strategy. 
 2. I have a comments section. I'm going to do my damnedest to (a) actually write well enough and consistently to garner comments, and (b) to engage with the ones I do get.
+3. Speaking of audience participation: This blog is written in a framework that makes it pretty easy[^githubeasy] for you to engage with my content by directly editing it. I've always found this to be cool but mildly gimmicky (this is a blog, not a group spreadsheet), but if you feel so inclined, I've put a "contribute" button right at the bottom of each post. Prove me wrong.
 
 Okay, let's roll. What should I write about?
 
@@ -49,3 +50,4 @@ Okay, let's roll. What should I write about?
 [^notime]: Examples include: Waiting for the bottle to warm up; administering the bottle; observing [tummy time](http://www.webmd.com/parenting/baby/sleep-naps-12/tummy-time) sessions; waiting to see if that poop was the only poop or part one of a series; waiting to see if she's asleep enough to swaddle; waiting to see if she's still asleep post-swaddle.
 [^pees]:Minor delight of being a new parent: Hearing actual medical professionals, who went to school for approximately twelve hundred years, use the term "pees and poops" with complete and utterly clinical earnestness.
 [^seventy]:Okay, it's seventy percent temperament.
+[^githubeasy]: Easy for people who use and understand git/Github, anyway. *Vox populi vox dei.*
